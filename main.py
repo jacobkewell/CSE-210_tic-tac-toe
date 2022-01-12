@@ -11,6 +11,7 @@ def main():
         print_board(board)
         board = user_move(current_player, board)
         current_player = next_turn(current_player)
+    print_board(board)
     print(f'Good Game! Thanks for Playing!')    
 
 # creates the intital tic-tac-toe board
